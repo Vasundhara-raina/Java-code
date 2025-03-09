@@ -1,0 +1,22 @@
+package oops;
+public class Personal{
+    String name;
+    int age;
+    String city;
+    int pincode;
+    void setdata(String n, int a, String c,int p){
+        name = n;
+        age = a;
+        city = c;
+        pincode = p;
+    } 
+    void getdata(){
+        System.out.println(name+" "+age+" "+city+" "+pincode);
+    }
+    public static void main(String[] args){
+        Personal stu1 = new Personal();
+        stu1.setdata(n:"blaa",a:5,c:"jammu",p:18005);
+        
+    }
+
+}
