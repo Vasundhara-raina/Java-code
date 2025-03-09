@@ -1,0 +1,18 @@
+class Main {
+      public static void main(String[] args){
+             int marks = 78;
+             char gender = 'f';
+             if(marks > 75 && gender == 'f'){
+                  System.out.println("u are selected for oprational team");
+
+             }
+            else if(marks > 75 && gender == 'm'){
+                  System.out.println("u are selected for marketing team");
+
+            } 
+            else{
+                  System.out.println("u are not selected ");
+
+            }
+      }
+}
